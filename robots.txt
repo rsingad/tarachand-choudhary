@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps help search engines find all your pages
-Sitemap: https://tarachand-portfolio.vercel.app/sitemap.xml
+Sitemap: https://tarachand-choudhary.vercel.app/sitemap.xml

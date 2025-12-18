@@ -12,16 +12,20 @@ const About = () => {
     <section id="about" className="py-24 px-6 bg-slate-900/50">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* Left Side: Image/Visual Element */}
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden border-2 border-rose-500/20 relative z-10 bg-slate-800 flex items-center justify-center">
-               {/* Agar Tarachand ki photo ho to yahan lagayein */}
-               <User size={150} className="text-slate-700" />
-               <div className="absolute bottom-6 left-6 right-6 bg-slate-950/80 backdrop-blur-md p-6 rounded-2xl border border-white/10">
-                  <p className="text-rose-500 font-bold text-xl">Tarachand Choudhary</p>
-                  <p className="text-slate-400 text-sm italic">"Bringing stories to life through cinematic frames."</p>
-               </div>
+              <img
+                src={"/tarachand.jpg"}
+                alt="Tarachand Choudhary"
+                className="w-full object-cover" // Isse photo box mein fit ho jayegi
+              />
+              {/* <User size={150} className="text-slate-700" /> */}
+              <div className="absolute bottom-6 left-6 right-6 bg-slate-950/80 backdrop-blur-md p-6 rounded-2xl border border-white/10">
+                <p className="text-rose-500 font-bold text-xl">Tarachand Choudhary</p>
+                <p className="text-slate-400 text-sm italic">"Bringing stories to life through cinematic frames."</p>
+              </div>
             </div>
             {/* Decorative Background Elements */}
             <div className="absolute -top-4 -right-4 w-full h-full border-2 border-rose-600 rounded-3xl -z-0"></div>
@@ -31,9 +35,9 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-rose-500 font-bold tracking-widest uppercase text-sm mb-2">About the Editor</h2>
-              <h3 className="text-4xl md:text-5xl font-black mb-6">Mastering the Art of <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-orange-400">Visual Storytelling</span></h3>
+              <h3 className="text-4xl md:text-5xl font-black mb-6">Mastering the Art of <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-orange-400">Visual Storytelling</span></h3>
               <p className="text-slate-400 text-lg leading-relaxed">
-                Based in Jodhpur, I am a professional <span className="text-white font-semibold">Video Editor & Graphic Designer</span> specialized in high-end OTT content and viral YouTube productions. 
+                Based in Jodhpur, I am a professional <span className="text-white font-semibold">Video Editor & Graphic Designer</span> specialized in high-end OTT content and viral YouTube productions.
                 My most notable work includes working as an editor and colorist for the <span className="text-white font-semibold">STAGE App's Desi Panchayat</span>.
               </p>
             </div>

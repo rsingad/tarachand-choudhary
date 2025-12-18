@@ -3,7 +3,7 @@
 A high-performance portfolio website for **Tarachand Choudhary**, a professional Video Editor based in Jodhpur. Specializing in OTT content (STAGE App) and cinematic storytelling.
 
 ## 🚀 Live Demo
-**View the live project:** [https://tarachand-potfoliyo.vercel.app/](https://tarachand-potfoliyo.vercel.app/)
+**View the live project:** [https://tarachand-choudhary.vercel.app/](https://tarachand-choudhary.vercel.app/)
 
 ---
 
