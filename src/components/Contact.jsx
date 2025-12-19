@@ -43,8 +43,8 @@ const Contact = () => {
     { 
       icon: <Mail className="text-rose-500" />, 
       label: "Email Me", 
-      value: "contact@tarachand.in", 
-      link: "mailto:contact@tarachand.in" 
+      value: "bhaitc4@gmail.com", 
+      link: "mailto:bhaitc4@gmail.com" 
     },
     { 
       icon: <MapPin className="text-rose-500" />, 

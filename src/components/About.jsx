@@ -4,8 +4,8 @@ import { User, CheckCircle, Video, Camera } from 'lucide-react';
 const About = () => {
   const stats = [
     { label: 'Years Experience', value: '5+' },
-    { label: 'Projects Completed', value: '500+' },
-    { label: 'Happy Clients', value: '100+' },
+    { label: 'Projects Completed', value: '100+' },
+    { label: 'Happy Clients', value: '10+' },
   ];
 
   return (
